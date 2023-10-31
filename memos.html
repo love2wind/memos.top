@@ -14,14 +14,14 @@
     <link href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" rel="stylesheet" media="print" onload="this.media='all'">
     <title>涅哥记事本</title>
     <link href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <style>.tag-span {color: var(--color-tag);padding-right: 8px;}</style>
+    <style>.tag-span {color: var(--color-tag);padding-right: 8px;}.load-btn {margin: 0 40% 0 45%;}</style>
 </head>
     
 <body style="font-family:'lxgw wenkai screen','sans-serif' !important;">
 
     <section id="main" class="container">
 
-        <h1 class="total">Total <span id="total" style="color: #8e24aa;">0</span> Memos 🎉</h1>
+        <h1 class="total" style="text-align: center;">Total <span id="total" style="color: #8e24aa;">0</span> Memos 🎉</h1>
 
         <blockquote id="tag-filter" class="filter">
             <div id="tags"></div>
@@ -32,15 +32,6 @@
         </div>
 
     </section>
-
-    <footer class="markdown-body footer">
-        <p>Copyright @
-            <script>
-                document.write(new Date().getFullYear())
-            </script><a href="https://nie.su" target="_blank" rel="noopener noreferrer" style="display: inline;text-decoration: none;color: black;">Nie.Su</a> All Rights Reserved.
-        </p>
-
-    </footer>
     <!-- Your Memos API -->
     <script type="text/javascript">
         var memos = {
